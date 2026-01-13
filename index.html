@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web tạo bởi Mạnh :D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Nền gradient đẹp */
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1); /* Nền trong suốt cho phần nội dung */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .member {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .member-info {
+            flex: 1;
+            text-align: left;
+        }
+        .member h2 {
+            margin: 0 0 10px 0;
+        }
+        .member p {
+            margin: 0 0 10px 0;
+        }
+        .member a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .member a:hover {
+            text-decoration: underline;
+        }
+        .member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Giới thiệu các Thành viên tổ 3 lớp 12D2</h1>
+        <p> <b> Chào mừng bạn đến với trang Giới thiệu Thành viên tổ 3 lớp 12D2 của chúng tôi. Dưới đây là thông tin về các thành viên nổi bật.</b></p>
+        
+        <div class="member">
+            <div class="member-info">
+                <h2>Lê Thị Hiền "tổ trưởng tổ 3"</h2>
+
+                <a href="#thong-tin-a">Xem thông tin chi tiết</a>
+                <div id="thong-tin-a" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Lê Thị Hiền</h3>
+            <p>Tuổi: 18<br>Sở thích:thích học Sử và tiếng Anh.<br></p>
+                </div>
+            </div>
+            <img src="lth.jpg" alt="Lê Thị Hiền"> 
+        </div>
+                <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Đức Mạnh "Người tạo"</h2>
+
+                <a href="#thong-tin-h">Xem thông tin chi tiết</a>
+                <div id="thong-tin-h" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Đức Mạnh</h3>
+            <p>Tuổi: 17<br>Sở thích:thích học Tin,Toán và 1 chút Vật Lý.<br></p>
+                </div>
+            </div>
+            <img src="MT.jpg" alt="Nguyễn Đức Mạnh"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Hà Linh</h2>
+
+                <a href="#thong-tin-b">Xem thông tin chi tiết</a>
+                <div id="thong-tin-b" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Hà Linh</h3>
+            <p>Tuổi: 17<br>sở thích là học toán<br></p>
+                </div>
+            </div>
+            <img src="hl.jpg" alt="Nguyễn Hà Linh"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Lê Tiến Trung</h2>
+
+                <a href="#thong-tin-c">Xem thông tin chi tiết</a>
+                <div id="thong-tin-c" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Lê Tiến Trung</h3>
+            <p>Tuổi: 17<br>Sở thích: meme và wibu<br></p>
+                </div>
+            </div>
+            <img src="tr.jpg" alt="Lê Tiến Trung"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Thu Hòa</h2>
+
+                <a href="#thong-tin-j">Xem thông tin chi tiết</a>
+                <div id="thong-tin-j" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Thu Hòa</h3>
+            <p>Tuổi: 17<br>Sở thích: ăn và ngủ<br></p>
+                </div>
+            </div>
+            <img src="hoa.jpg" alt="Nguyễn Thu Hòa"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Thị Thanh Huệ</h2>
+
+                <a href="#thong-tin-d">Xem thông tin chi tiết</a>
+                <div id="thong-tin-d" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Thị Thanh Huệ</h3>
+            <p>Tuổi: 17<br>Sở thích: thích nghe nhạc<br></p>
+                </div>
+            </div>
+            <img src="Thue.jpg" alt="Nguyễn Thị Thanh Huệ"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Đỗ Kim Ánh</h2>
+
+                <a href="#thong-tin-g">Xem thông tin chi tiết</a>
+                <div id="thong-tin-g" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Đỗ Kim Ánh</h3>
+            <p>Tuổi: 17<br>Sở thích: nghe nhạc và lướt tiktok <br></p>
+                </div>
+            </div>
+            <img src="anh.jpg" alt="Đỗ Kim Ánh"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Lê Mai Phương</h2>
+
+                <a href="#thong-tin-f">Xem thông tin chi tiết</a>
+                <div id="thong-tin-f" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Lê Mai Phương</h3>
+            <p>Tuổi: 17<br>Sở thích: thích tiêu tiền 😀<br></p>
+                </div>
+            </div>
+            <img src="mp.jpg" alt="Lê Mai Phương"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Trần Phúc Trí</h2>
+
+                <a href="#thong-tin-e">Xem thông tin chi tiết</a>
+                <div id="thong-tin-e" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Trần Phúc Trí</h3>
+            <p>Tuổi: 17<br>Sở thích: Bóng đá<br></p>
+                </div>
+            </div>
+            <img src="tri.jpg" alt="Trần Phúc Trí"> 
+        </div>
+
+        <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Thị Huệ</h2>
+
+                <a href="#thong-tin-k">Xem thông tin chi tiết</a>
+                <div id="thong-tin-k" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Thị Huệ</h3>
+            <p>Tuổi: 17<br>Sở thích: chơi smartphone<br></p>
+                </div>
+            </div>
+            <img src="Thihue.jpg" alt="Nguyễn Thị Huệ"> 
+        </div>
+
+         <div class="member">
+            <div class="member-info">
+                <h2>Nguyễn Hoàng Anh</h2>
+
+                <a href="#thong-tin-l">Xem thông tin chi tiết</a>
+                <div id="thong-tin-l" class="detail" style="display: none; margin-top: 20px; text-align: left;">
+            <h3>Thông tin chi tiết về Nguyễn Hoàng Anh</h3>
+            <p>Tuổi: 17<br>Sở thích: Đọc truyện gây<br></p>
+                </div>
+            </div>
+            <img src="Hanh.jpg" alt="Nguyễn Hoàng Anh"> 
+        </div>
+
+    </div>
+    <script>
+        document.querySelectorAll('.member a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetDiv = document.getElementById(targetId);
+                targetDiv.style.display = targetDiv.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
